@@ -57,7 +57,6 @@ def main():
     pdf_path = None
     try:
         today = datetime.now(pytz.timezone('Asia/Barnaul'))
-        # today = datetime(2025, 4, 23)
         tomorrow = today + timedelta(days=1)
         tomorrow_datetime = tomorrow.strftime("%d_%m_%Y")  # Для поиска в ссылке
 
